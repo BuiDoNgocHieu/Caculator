@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caculation | By Coder Infor | Ngọc Hiếu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cal-box">
+        <form name="caculator">
+          <input
+            id="display"
+            type="text"
+            name="display"
+            placeholder="0"
+            readonly
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="7"
+            onclick="caculator.display.value += '7'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="8"
+            onclick="caculator.display.value += '8'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="9"
+            onclick="caculator.display.value += '9'"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="+"
+            onclick="caculator.display.value += '+'"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="4"
+            onclick="caculator.display.value += '4'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="5"
+            onclick="caculator.display.value += '5'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="6"
+            onclick="caculator.display.value += '6'"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="-"
+            onclick="caculator.display.value += '-'"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="1"
+            onclick="caculator.display.value += '1'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="2"
+            onclick="caculator.display.value += '2'"
+          />
+          <input
+            class="button"
+            type="button"
+            value="3"
+            onclick="caculator.display.value += '3'"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="x"
+            onclick="caculator.display.value += '*'"
+          />
+          <br />
+          <input
+            class="button clearbutton"
+            type="button"
+            value="C"
+            onclick="caculator.display.value = ''"
+          />
+          <input
+            class="button"
+            type="button"
+            value="0"
+            onclick="caculator.display.value += '0'"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="="
+            onclick="caculator.display.value = eval(caculator.display.value)"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="/"
+            onclick="caculator.display.value += '/'"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
